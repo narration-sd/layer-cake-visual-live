@@ -24,10 +24,10 @@ export function Post(props: NonNullable<POST_QUERYResult>) {
       {mainImage ? (
         <figure className="lg:col-span-4 flex flex-col gap-2 items-start">
           <Image
-            src={urlFor(mainImage).width(400).height(400).url()}
-            width={400}
-            height={400}
-            alt=""
+            src={urlFor(mainImage).width(600).height(300).url()}
+            width={600}
+            height={300}
+            alt={mainImage?.alt}
           />
         </figure>
       ) : null}
