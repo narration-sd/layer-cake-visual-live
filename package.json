@@ -17,7 +17,7 @@
     "@sanity/vision": "^3.74.1",
     "dayjs": "^1.11.13",
     "next": "15.1.6",
-    "next-sanity": "^9.8.54",
+    "next-sanity": "^9.8.55",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sanity": "^3.74.1",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
