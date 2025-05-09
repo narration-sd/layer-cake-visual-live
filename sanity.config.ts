@@ -29,7 +29,8 @@ export default defineConfig({
     presentationTool({
       resolve,
       previewUrl: {
-        origin: 'http://localhost:3000', // or remote deployed
+        // origin: 'http://localhost:3000', // or remote deployed
+        origin: 'https://layer-caker-bice.vercel.app',
         previewMode: {
           enable: '/api/draft-mode/enable',
         },
