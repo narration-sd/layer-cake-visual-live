@@ -29,7 +29,7 @@ export default defineConfig({
     presentationTool({
       resolve,
       previewUrl: {
-        // origin: 'http://localhost:3000', // or remote deployed
+        origin: 'http://localhost:3000', // or remote deployed
         previewMode: {
           enable: '/api/draft-mode/enable',
         },
