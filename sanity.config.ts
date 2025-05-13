@@ -11,7 +11,7 @@ import { presentationTool } from 'sanity/presentation'
 import { resolve } from './src/sanity/presentation/resolve'
 
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
-import {apiVersion, dataset, projectId} from './src/sanity/env'
+import {apiVersion, dataset, projectId, previewUrl } from './src/sanity/env'
 import {schema} from './src/sanity/schemaTypes'
 import {structure} from './src/sanity/structure'
 
@@ -29,9 +29,8 @@ export default defineConfig({
     presentationTool({
       resolve,
       previewUrl: {
-        // origin: 'http://localhost:3000', // or remote deployed
-        origin: 'https://layer-caker-bice.vercel.app',
         previewMode: {
+          initial: previewUrl,
           enable: '/api/draft-mode/enable',
         },
       },
