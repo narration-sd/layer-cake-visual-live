@@ -29,9 +29,8 @@ export default defineConfig({
     presentationTool({
       resolve,
       previewUrl: {
+        initial: previewUrl,
         previewMode: {
-          // @ts-expect-error somehow this is in code but not in ts defines yet
-          initial: previewUrl,
           enable: '/api/draft-mode/enable',
         },
       },
